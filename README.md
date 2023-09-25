@@ -28,10 +28,19 @@ This file is a script for the 'make' utility to automate the building of the pro
 
 ## Dependencies
 
-- [SDL2](https://github.com/libsdl-org/SDL/tree/SDL2)
-- [SDL2_ttf](https://github.com/libsdl-org/SDL_ttf/tree/SDL2)
 - [gcc](https://gcc.gnu.org/) (or any compatible C compiler)
 - [make](https://www.gnu.org/software/make/)
+- [SDL2](https://github.com/libsdl-org/SDL/tree/SDL2)
+- [SDL2_ttf](https://github.com/libsdl-org/SDL_ttf/tree/SDL2)
+
+To install *both* SDL repastitories:
+1. Clone the repository
+2. ``` sh
+   ./configure```
+3. ``` sh
+   make```
+4. ``` sh
+   make install```
 
 Make sure to install the SDL2 and SDL2_ttf libraries and have a C compiler and make installed on your system before trying to build and run the project.
 
